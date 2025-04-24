@@ -52,16 +52,48 @@
 // }
 // console.log(`${situacao}, média: ${media}`);
 
-// //Questão 6
-let valor = 80;
-let desconto = 0.1;
-if(valor> 100){
-    console.log(`Total a pagar: ${(valor - (valor * desconto)).toFixed(2)}`);
-}else{
-    console.log(`Total a pagar: ${valor}`);
+// // //Questão 6
+// let valor = 80;
+// let desconto = 0.1;
+// if(valor> 100){
+//     console.log(`Total a pagar: ${(valor - (valor * desconto)).toFixed(2)}`);
+// }else{
+//     console.log(`Total a pagar: ${valor}`);
+// }
+
+// //Questão 7
+
+// let ano = 2023;
+
+// if (ano % 400 == 0) {
+//     console.log(`${ano} é bisexto`);
+// } else if (ano % 4 == 0 && ano % 100 != 0) {
+//     console.log(`${ano} é bisexto`);
+// } else {
+//     console.log(`${ano} não é bisexto`);
+// }
+
+
+// // //Questão 8
+// let usuario = "admin";
+// let senha = "1234";
+//  if(usuario == "admin" && senha == "1234"){
+//     console.log("Aceso permitido");
+//  } else{
+//     console.log("Acesso negado");
+//  }
+
+//Questão 9 
+let valorDaCompra = 30;
+let valorMinimo = 200;
+let ganhouFrete = valorMinimo - valorDaCompra;
+console.log(`Compre mais ${ganhouFrete} e ganhe frete grátis`);
+if (valorDaCompra >= 200) {
+    console.log(`Valor total da compra: R$ ${valorDaCompra} , gostaria de frete grátis?`);
+}
+else {
+    console.log(`ou se preferir pague R$20 de frete`);
 }
 
-//questão 7
-let ano = 2025;
-if(ano % 4 ==0){}
-
+//Questão 10
+let 
